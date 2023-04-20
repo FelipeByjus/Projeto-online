@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>Zen</title>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/p5.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.dom.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.9.0/addons/p5.sound.min.js"></script>
+    <script src="p5.play.js"></script>
+
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-app.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/6.3.0/firebase-database.js"></script>
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.0/firebase-app.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // SEU CÓDIGO AQUI
+        
+        const firebaseConfig = {
+    apiKey: "AIzaSyBjQybXUcfhuqgBFDYtWFbRLZo6p7umpog",
+    authDomain: "bd02-81d56.firebaseapp.com",
+    databaseURL: "https://bd02-81d56-default-rtdb.firebaseio.com",
+    projectId: "bd02-81d56",
+    storageBucket: "bd02-81d56.appspot.com",
+    messagingSenderId: "750171713976",
+    appId: "1:750171713976:web:d9333e6baf1991a258df4d"
+  };
+       
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        firebase.initializeApp(firebaseConfig);
+    </script>
+</head>
+
+<body>
+    <script src="sketch.js"></script>
+</body>
+
+</html>
